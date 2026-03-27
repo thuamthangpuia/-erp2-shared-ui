@@ -1,0 +1,7 @@
+export { SharedUIProvider, useSharedUIAuth } from './context/SharedUIProvider'
+export { default as PermissionGate } from './components/PermissionGate'
+export { default as ForbiddenPage } from './components/ForbiddenPage'
+export { default as LockedPlaceholder } from './components/LockedPlaceholder'
+export { default as InlineAlert } from './components/InlineAlert'
+export { default as ConfirmDialog } from './components/ConfirmDialog'
+export { flatToPolicy, hasAction, getActions } from './utils/permissionUtils'
